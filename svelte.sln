@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35309.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "svelte.Server", "svelte.Server\svelte.Server.csproj", "{D5D9E4F6-8C4D-41FE-8121-7D0D4677DFE2}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "svelte.Client", "svelte.Client\svelte.Client.esproj", "{6BB742B9-3093-4EAA-A06D-43917E971939}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4D74E765-8BD2-489D-8E6D-E97DE3897685}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+		nuget.config = nuget.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5D9E4F6-8C4D-41FE-8121-7D0D4677DFE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5D9E4F6-8C4D-41FE-8121-7D0D4677DFE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5D9E4F6-8C4D-41FE-8121-7D0D4677DFE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5D9E4F6-8C4D-41FE-8121-7D0D4677DFE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BB742B9-3093-4EAA-A06D-43917E971939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB742B9-3093-4EAA-A06D-43917E971939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB742B9-3093-4EAA-A06D-43917E971939}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6BB742B9-3093-4EAA-A06D-43917E971939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB742B9-3093-4EAA-A06D-43917E971939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BB742B9-3093-4EAA-A06D-43917E971939}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06DC5BD6-9B46-4EB3-80C1-768A7F099C91}
+	EndGlobalSection
+EndGlobal
